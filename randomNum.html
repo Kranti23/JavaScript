@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userInput</title>
+        <h1>"Random Number"</h1>
+    <script>
+
+        // let randomNumber = Math.floor(Math.random()*6 ) + 1
+        // console.log(randomNumber)
+        // let userInput = prompt("Enter the number you want")
+        // if(userInput == randomNumber){
+        //     console.log('your guess is correct')
+        //   }
+        //   else {
+        //       console.log('your guess is incorrect')
+        //   }        
+
+       //------- using loop ----------
+
+    //    let randomNumber =Math.floor(Math.random()*6) + 1
+    //    console.log(randomNumber)
+    //    let userInput ;
+    //    for(let i =0 ; i<=2 ; i++){
+    //        userInput = prompt("Enter your number")
+    //        if(randomNumber == userInput){
+    //            console.log("guess is correct")
+    //            break
+    //        }
+    //    }
+
+// ________________ counting how many times _________________________________
+
+let randomNumber =Math.floor(Math.random()*6) + 1
+       console.log(randomNumber)     
+       let userInput ;              //undefined
+       let count = 0
+
+     while(randomNumber != userInput){
+          userInput = prompt('\nEnter the number beween 1 to 6')
+          count = count + 1
+        //count ++
+       }
+       console.log(' you guess the correct number '+count+'attempts')
+
+
+// let randomNumber =Math.floor(Math.random()*6) + 1
+//        console.log(randomNumber)     
+//        let userInput ;  
+
+//        while(true){
+//            userInput=prompt('Enter the number from 1 to 6 ')
+//            if(userInput == randomNumber){
+//                console.log('you guess coreect')
+//                break
+//            }
+//        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+

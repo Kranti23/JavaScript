@@ -1,0 +1,17 @@
+````````````````````````````````````````````````````````````
+1.ENCAPSULATION   --->> maintains privacy 
+
+2.POLYMORPHISM     -->> one to many
+
+3.INHERETENCE     -->> parent se prtotype properties child obj ke __proto__ mein inherit krta
+            i.e pro obj se attach nhi hogi , uske proto mei add hoti hai
+
+4.ABSTRACT      -->> short terminology for all the process
+
+
+/********************************************************************************
+methods of creating object
+
+--->> function constructor
+--->> ES6 class ---> prop directly prototype mei attach hoti hai, no need to create them seperately
+--->> object.create()

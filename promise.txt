@@ -1,0 +1,10 @@
+
+cypress execution be synchronous 
+cypress commnads are asynchronous
+
+//if in cypress we write code in jquery/javascript -->then it breaks the synchro behav of code
+so to get synchro order from asynchro behav wconsole.log(2-1)e need promises.
+
+interverence--->> in cypress we can resolve promises(manually) by .then()
+
+//PROMISE --->> pending , reject , resolve
